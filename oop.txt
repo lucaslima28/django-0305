@@ -1,0 +1,65 @@
+Class Veiculo 
+
+cor rodas
+motor
+porta
+assento (banco)
+
+caminhao # Objeto
+ferrari # Objeto
+
+caminhao.cor = bege # defini atributo
+ferrari.cor = vermelha
+
+roda 4 dodas
+
+ferrari.porta = 'vidro eletrico'
+caminhao.porta = 'vidro manual'
+
+ferrari.porta # Console
+'vidro eletrico' # retorno do Console
+
+ferrari.cor # Console
+'vermelho'
+
+#################################################
+
+Class Celular
+
+propriedades:
+modelo
+processador
+camera
+cor
+tela (tamanho)
+
+objetos:
+iphone
+motoG
+
+atributos:
+iphone.modelo = "X"
+iphone.processador = "Intel alguma coisa"
+iphone.cor = "Branco, preto, dourado, espacial"
+iphone.tela = "6''"
+
+motog.modelo = "G5"
+motog.cor = "preto, dourado, cinza"
+motog.camera = "13mp"
+
+
+
+##################################################
+COMANDOS
+##################################################
+
+
+
+INSTALAR DJANGO
+
+1) pip install virtualenv # Com o myenv ativo (No console vai aparecer (myenv))
+2) pip install django # Quando vai abrir um projeto do Zero
+3) python -m venv myenv
+4) pip install -r requirements.txt # Quando ja está em produçãop e precisa mexer em outro pc
+5) source myenv/Scripts/activate
+6) django-admin.py startproject primeiroProjeto
